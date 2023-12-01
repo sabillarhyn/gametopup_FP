@@ -1,0 +1,71 @@
+.gradient{
+    background: linear-gradient(#848692, #2b3d61); 
+
+}
+
+hr {
+    color: white;
+    width: 25%;
+    border-top: 3px solid #fff;
+    opacity: 1;
+}
+
+
+
+h1 {
+    color: white;
+}
+
+.img-fluid {
+    transition: 0.3s;
+    border-radius: 7px;
+}
+
+.img-fluid:hover {
+    box-shadow: 25px 22px 23px -1px rgba(43,43,43,0.76);
+    -webkit-box-shadow: 25px 22px 23px -1px rgba(43,43,43,0.76);
+    -moz-box-shadow: 25px 22px 23px -1px rgba(43,43,43,0.76);
+}
+
+footer {
+    min-height: 100px;
+    background-color:white;
+    color: #000;
+}
+
+.akun {
+    height: 45px;
+    width: 80px;
+    background-color: #d3d3d3;
+    border-radius: 7px;
+}
+
+.acc {
+    height: 45px;
+    width: 90px;
+    background-color: #d3d3d3;
+    border-radius: 7px;
+}
+
+.event {
+    color: white;
+}
+
+#card1{
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px black;
+    height: 600px;
+    margin: 80px auto 230px auto;
+    width: 600px;
+}
+#card-content1{
+    padding: 30px 44px;
+}
+#card-title1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 6px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: justify;
+}

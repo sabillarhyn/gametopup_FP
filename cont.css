@@ -1,0 +1,110 @@
+/*---------------untuk kontak----------------------------*/
+
+.btn-group .button { /*class untuk tombol di header */
+    background-color:transparent; /*membuat warna tombol jadi transparan */
+    border: none; /*tombol tidak di beri garis */
+    color: white; /*warna tulisan pada tombol */
+    padding: 18px 35px; /*untuk mengatur jarak pada sisi */
+    text-align: center; /*possisi teks*/
+    text-decoration: none;
+    display: inline-block; /*agar display dapat di atur lebar dan tingginya */
+    font-size: 16px; /*ukuran teks pada tombol*/
+    cursor: pointer;
+    font-weight: bold; /*huruf pada tombol jadi tebal*/
+  }
+  
+  .btn-group .button:hover { /*hover untuk memberikan animasi saat cursor berada di atas tombol */
+    background-color: #202020; /*saat hover aktif background tombol berubah warna */
+  }
+
+input[type=text] { /*untuk mengatur bentuk dan posisi teks box dari input nama */
+    width: 70%; /*lebar text box */
+    padding: 12px 20px; /*untuk mengatur jarak pada sisi */
+    margin: 8px 0; /*garis tepi */
+    box-sizing: border-box; /*agar div memiliki ukuran yang tetap */
+    border: 3px solid #ccc; /*garis tepi text box */
+    -webkit-transition: 0.5s; /*untuk transisi */
+    transition: 0.5s;
+    outline: none; /*tidak ada garis luar */
+    border-radius: 8px; /*ketajaman ujung text box */
+    display: inline-block; /*agar display dapat di atur lebar dan tingginya */
+    position: relative;/*posisi objek*/
+    left: 20%;
+  }
+  
+  input[type=text]:focus { /*untuk memberikan efek atau anmimasi saat text box di klik */
+    border: 3px solid rgb(22, 22, 22); /* wana garis tepi text box saat hover aktif*/
+  }
+
+  input[type=email] { /*untuk mengatur bentuk dan posisi text dari input email */
+    width: 70%; /*lebar text box */
+    padding: 12px 20px; /*untuk mengatur jarak pada sisi */
+    margin: 8px 0; /*garis tepi */
+    box-sizing: border-box; /*agar div memiliki ukuran yang tetap */
+    border: 3px solid #ccc;  /*garis tepi text box */
+    -webkit-transition: 0.5s; /*untuk transisi */
+    transition: 0.5s;
+    outline: none; /*tidak ada garis luar */
+    border-radius: 8px; /*ketajaman ujung text box */
+    position: relative; /*posisi objek*/
+    left: 20%;
+  }
+  
+  input[type=email]:focus { /*untuk mmeberikan efek atau animasi saat text box di klik */
+    border: 3px solid rgb(22, 22, 22); /* wana garis tepi text box saat hover aktif*/
+  }
+
+  textarea { /*untuk membuat dan mengatur posisi box text area */
+    width: 70%; /*lebar text area */
+    height: 100px; /*tinggi text area */
+    padding: 12px 20px; /*untuk mengatur jarak pada sisi */
+    box-sizing: border-box; /*agar div memiliki ukuran yang tetap */
+    border: 2px solid #ccc; /*garis tepi text box */
+    background-color: #f8f8f8; /*warna dasar box*/
+    resize: none; /*ukuran box tidak bisa di ubah*/
+    border-radius: 8px; /*ketajaman ujung text box */
+    position: relative; /*posisi objek*/
+    left: 20%;
+  }
+
+  textarea:focus{ /*untuk memberikan efek atau animasi saat box di klik */
+    border: 3px solid rgb(22, 22, 22); /* wana garis tepi text box saat hover aktif*/
+  }
+
+
+  .send { /*untuk membentuk dan mengatur posisi tombol send message */
+    width: 70%; /*lebar tombol*/
+    background-color: teal; /*warna dasar tombol*/
+    border: none; /*tidak ada garis pada tombol*/
+    color: white; /*warna teks pada tombol*/
+    padding: 13px 32px; /*untuk mengatur jarak pada sisi */
+    text-decoration: none;
+    font-size: 16px; /*ukuran teks pada tombol*/
+    margin: 4px 2px;
+    transition-duration: 0.4s;/*untuk transisi*/
+    cursor: pointer;
+    border-radius: 8px; /*ketajaman ujung text box */
+    position: relative; /*posisi objek*/
+    left: 20%;
+  }
+  
+  .send1 { /*untuk mengatur bentuk tombol */
+    background-color:teal; /* wana tombol */
+    color: white; /* wana teks pada tombol */
+    border: 2px solid teal; /*garis tepi tombol*/
+    border-radius: 8px; /*ketajaman ujung tombol */
+
+  }
+  
+  .send1:hover { /*hover untuk memberikan animasi saat cursor berada di atas tombol */
+    background-color:rgb(235, 235, 235); /* wana tombol  saat hover aktif*/
+    color: black;  /* wana teks pada tombol saat hover aktif*/
+    border-radius: 8px; /*ketajaman ujung tombol */
+  }
+
+.info-img{ /*untuk mengatur posisi dan ukuran dari icon info kontak */
+    line-height: 96%; /*jarak antar gambar*/
+    position: fixed; /*posisi gambar*/
+    top: 39%;
+    left: 53%;
+}
